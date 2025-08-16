@@ -1,0 +1,5 @@
+2. Describe the difference between var, dynamic, and explicitly typed variables in Dart.
+
+var : It is a Keywords we conclude from it the datatype from the value and the datatype doesn't changed 
+
+dynamic : the datatype can be changed at any time
