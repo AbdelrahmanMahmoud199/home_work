@@ -9,7 +9,7 @@ once.
 void main() {
   List<String> names = ['ahmed', 'ali', 'ahmed', 'omar', 'ahmed'];
   var uniqueNames = names.toSet();
-  Map<String, int> countsOfOccurrences = {'ali': 1, 'ahmed': 3, 'omar': 1};
+  Map<String, int?> countsOfOccurrences = {'ali': 1, 'ahmed': 3, 'omar': 1};
 
   print(names.length);
   print(uniqueNames.length);

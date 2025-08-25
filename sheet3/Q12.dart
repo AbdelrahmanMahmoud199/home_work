@@ -9,5 +9,5 @@ void main() {
   var defaults = phoneNumber['number'] ?? "Phone number not available";
   print(defaults);
   phoneNumber['number'] = 10272799;
-  print(phoneNumber['number']);
+  print(phoneNumber['number'].toString().length);
 }
