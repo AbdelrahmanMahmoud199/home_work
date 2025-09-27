@@ -6,7 +6,7 @@ Create a class Grade with a private field _score.
 - In main(), demonstrate updating the score multiple times and printing results
  */
 
-import '../class3.dart';
+import 'class3.dart';
 
 void main() {
   Grade g = Grade();

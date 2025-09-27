@@ -11,6 +11,7 @@ class Grade {
 
   int get score => _score;
 
+
   set score(int value) {
     if (value < 0 || value > 100) {
       print("Invalid score");
@@ -19,5 +20,8 @@ class Grade {
     }
   }
 
+
   bool get isPass => _score >= 50;
 }
+
+
